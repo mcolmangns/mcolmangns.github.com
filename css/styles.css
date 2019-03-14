@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(238, 237, 250);
+    color: darkslategray;
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+  }
+
+.container {
+    align-content: center;
+    display: inline-block;
+    margin: 10 px;
+}
+
+h1 {
+    font-size: 1.7em;
+    color: rgb(99, 12, 63);
+ }
+
+h2{
+    font-size: 1.2em;
+    color: darkslateblue;
+}
+
+li {
+  list-style:none;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  padding:0px;
+}
+
+/* Cambiar el color, fondo y borde de los botones. */
+button {
+  cursor: pointer;
+  color: white;
+  padding: 6px;
+  border-radius: 8px;
+  font-weight: 600;
+  margin: 5px;
+
+}
+.edit {
+  cursor: pointer;
+  padding: 6px;
+  background-color: #606568;
+  border: 1px solid #26272c;
+  color: white;
+
+}
+
+.edit:hover{
+  color: #3f4046;
+  background-color: #e9e9e9;
+}
+
+.add {
+  cursor: pointer;
+  padding: 6px;
+  background-color: rgb(42, 143, 42);
+  border: 1px solid #053109;
+  color: white;
+}
+.add:hover{
+  color: #106e18;
+  background-color: #e9f1e3;
+}
+
+.delete {
+  cursor: pointer;
+  padding: 6px;
+  background-color: rgb(201, 57, 57);
+  border: 1px solid #310505;
+  color: white;
+}
+.delete:hover{
+  color: #6e1010;
+  background-color: #f1e3e3;
+}
+
+/*Cuadro de texto*/
+li {
+  border-color: darkslategrey;
+  border: 1px solid;
+  padding: 10px 40px;
+  border-radius: 8px;
+  width: 300px;
+  margin-bottom: 5px;
+}
+
+#completed-tasks {
+  text-align: left;
+}
+
+#incomplete-tasks {
+  text-align: left;
+}
+
+#completed-tasks :hover {
+  text-align: left;
+  color: rgb(14, 122, 41);
+}
+
+#incomplete-tasks :hover{
+  text-align: left;
+  color: brown
+}
+
+#new-task :hover{
+  text-align: left;
+  color: rgb(22, 41, 78)
+}
+
+#new-task {
+  border-color: darkslategrey;
+  border: 1px solid;
+  padding: 10px 20px;
+  border-radius: 8px;
+  width: 200px;
+  margin-bottom: 5px;
+}
